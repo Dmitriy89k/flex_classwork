@@ -1,0 +1,114 @@
+@font-face {
+  font-family: HansKendrick;
+  src: url("./fonts/HansKendrick-Regular.otf") format("opentype");
+}
+
+body{
+  background-color: #e2e7ec;
+  width: 100%;
+}
+
+.conteiner{
+  width: 1120px;
+  margin:0 auto;
+}
+
+.group1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left:20px;
+  height: 540px;
+
+}
+
+.group1 > .girl{
+  margin-left: 20px;
+  background-color: #fff;
+}
+
+.group2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 540px;
+}
+
+.group2 > div{
+  margin-left: 20px;
+  background-color: #fff;
+}
+
+
+.redcar_header{
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+  font-size: 30px;
+  font-family: HansKendrick;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.redcar_date{
+  position: absolute;
+  left: 30px;
+  bottom: 125px;
+  font-family: HansKendrick;
+  text-transform: uppercase;
+  font-size: 13px;
+  color:#8d836d;
+  font-weight: bold;
+
+}
+
+.girl{
+margin-left: 20px;
+background-color: #fff;
+}
+
+.article_date{
+margin-top:20px;
+margin-left:30px;
+font-family: HansKendrick;
+text-transform: uppercase;
+font-size: 13px;
+color:#8d836d;
+font-weight: bold;
+}
+.article_header{
+margin-top:20px;
+margin-left:30px;
+font-family: HansKendrick;
+text-transform: uppercase;
+font-size: 22px;
+color:black;
+font-weight: bolder;
+}
+
+.boots>.article_header{
+  margin-top: 60px;
+}
+
+.groups_icon{
+  margin-top: 65px;
+  margin-left: 25px;
+}
+
+.loading{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading > article{
+  margin-left:10px;
+  font-family: HansKendrick;
+  text-transform: uppercase;
+  font-size: 13px;
+  color:#8d836d;
+  font-weight: bold;
+}
